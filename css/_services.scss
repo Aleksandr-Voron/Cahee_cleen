@@ -1,0 +1,66 @@
+.services {
+  background: #70bfff;
+}
+
+.services__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 165px 0;
+  background: url(../images/Tomatoes.png) 100% center no-repeat;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.services__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  background: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.services__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.services__discription {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #262626;
+}
+
+.services__line {
+  flex: 0 1 auto;
+  width: 2px;
+  height: 100%;
+  background: #cdcdcd;
+}
+
+.services__icon {
+  flex: 1 1 100px;
+}
+
+.icon-Cart,
+.icon-Plant,
+.icon-Planets,
+.icon-Carrot {
+  font-size: 50px;
+}
+
+.services__title {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}

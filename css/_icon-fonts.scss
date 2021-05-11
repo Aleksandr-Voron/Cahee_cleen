@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?i1pdzi");
+  src: url("../fonts/icomoon.eot?i1pdzi#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?i1pdzi") format("truetype"),
+    url("../fonts/icomoon.woff?i1pdzi") format("woff"),
+    url("../fonts/icomoon.svg?i1pdzi#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  -webkit-speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Cart:before {
+  content: "\e900";
+}
+.icon-Carrot:before {
+  content: "\e901";
+}
+.icon-Planets:before {
+  content: "\e902";
+}
+.icon-Plant:before {
+  content: "\e903";
+}

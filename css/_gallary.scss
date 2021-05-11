@@ -1,0 +1,93 @@
+.gallary {
+  background: #ffe92f;
+}
+
+.gallary__wrapper {
+  padding: 92px 0 142px;
+  text-align: center;
+}
+
+.gallary__title {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  color: #262626;
+  margin-bottom: 30px;
+}
+
+.gallary__subtitle {
+  max-width: 623px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #262626;
+}
+
+.gallary__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.gallary__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.gallary-img__knife {
+  min-height: 540px;
+  flex: 1;
+  background: url(../images/Image-5.png) no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.gallary__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallary-img__spoon {
+  background: url(../images/Image-4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.gallary-img__berry {
+  background: url(../images/Image-3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.gallary__block {
+  width: 558px;
+  height: 392px;
+}
+
+.gallary__glas {
+  background: url(../images/Image-2.jpg) no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.gallary__tomat {
+  background: url(../images/Image-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.gallary__item {
+  width: 364px;
+  height: 265px;
+  margin-bottom: 0;
+}
+
+.gallary__btn {
+  background: #5585a2;
+  padding: 16px 43px;
+  color: #ffffff;
+  min-width: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
