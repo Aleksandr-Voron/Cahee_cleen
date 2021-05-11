@@ -1,0 +1,36 @@
+.footer-cahee {
+  background: #262626;
+  padding: 31px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  line-height: 19px;
+  color: #b9b9b9;
+}
+
+.footer__logo {
+  width: 64px;
+  height: 27px;
+
+  &__link {
+    &__img {
+      max-width: 100%;
+    }
+  }
+}
+
+.footer__subtitle {
+  font-size: 15px;
+  line-height: 18px;
+  color: #b9b9b9;
+
+  span {
+    color: #e42b52;
+  }
+}

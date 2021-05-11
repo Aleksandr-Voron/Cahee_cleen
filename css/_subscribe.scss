@@ -1,0 +1,54 @@
+.subscribe__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 144px 0;
+  color: #262626;
+  background: url(../images/BG_section.jpg) 92% center no-repeat;
+}
+
+.h3-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 20px;
+}
+
+.subscribe__paragraf {
+  max-width: 479px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.form__list {
+  display: flex;
+}
+
+.form__email {
+  margin-right: 30px;
+  min-width: 570px;
+  height: 55px;
+  border: 1px solid #262626;
+  padding: 19px 0 19px 15px;
+  outline: 0;
+}
+
+.form__email:focus {
+  border-top: 2px solid #c8c8c8;
+  border-left: 2px solid #c8c8c8;
+  border-right: 2px solid #c8c8c8;
+}
+
+.form__submite {
+  display: inline-block;
+  width: 170px;
+  height: 55px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #96b92c;
+  border: none;
+  outline: 0;
+  padding: 16px 38px;
+  cursor: pointer;
+}

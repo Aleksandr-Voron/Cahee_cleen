@@ -1,0 +1,110 @@
+.contact {
+  background: url(../images/BG_contact.jpg) no-repeat;
+  background-size: cover;
+  padding: 92px 0 93px;
+  text-align: center;
+}
+
+.contact__title {
+  color: #262626;
+}
+
+.contact__subtitle {
+  max-width: 346px;
+  line-height: 25px;
+  margin: 0 auto;
+  color: #262626;
+  margin-bottom: 50px;
+}
+
+.contact__wrapper {
+  display: flex;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  min-width: 553px;
+  margin-right: 12%;
+
+  input,
+  .contact__textarea {
+    display: inline-block;
+    min-height: 50px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    padding: 16px 22px;
+    border: 0;
+    outline: 0;
+    background: rgba(0, 196, 196, 0.5);
+    color: #fff;
+    border-left: 5px solid transparent;
+
+    &:focus {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      color: #ffffff;
+      border-left: 5px solid #355b82;
+    }
+  }
+  .contact__textarea {
+    resize: none;
+    min-height: 250px;
+    border-left: 5px solid transparent;
+  }
+
+  .contact__input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  .contact__input:focus::-moz-placeholder {
+    color: transparent;
+  }
+  .contact__input:focus:-moz-placeholder {
+    color: transparent;
+  }
+  .contact__input:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .contact__input::-webkit-input-placeholder,
+  .contact__textarea::-webkit-input-placeholder {
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .contact__input::-moz-placeholder,
+  .contact__textarea::-moz-placeholder {
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .contact__input:-moz-placeholder,
+  .contact__textarea:-moz-placeholder {
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .contact__input:-ms-input-placeholder,
+  .contact__textarea:-ms-input-placeholder {
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contact__item {
+  font-weight: bold;
+  line-height: 25px;
+  color: #262626;
+  text-align: left;
+}
+
+.contact__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.contact__subitem {
+  font-weight: 400;
+}
