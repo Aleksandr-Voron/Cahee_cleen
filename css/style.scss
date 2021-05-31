@@ -1,0 +1,331 @@
+@import "media";
+@import "icon-fonts";
+@import "header";
+@import "about";
+@import "services";
+@import "gallary";
+@import "subscribe";
+@import "blog";
+@import "contact";
+@import "footer";
+
+$font-body: "Raleway", sans-serif;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1244px) {
+  .about__wrapper {
+    background-size: 50%;
+    padding: 10% 0;
+  }
+
+  .product {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .container {
+    max-width: 990px;
+    justify-content: center;
+  }
+
+  .services__title {
+    margin-left: 10%;
+  }
+
+  .blog__wrapper {
+    max-width: 930px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about__wrapper {
+    background-size: 40%;
+    padding: 10% 0;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+
+  .product {
+    width: 295px;
+    min-height: 280px;
+  }
+
+  .services__wrapper {
+    padding: 10% 0;
+  }
+
+  .form__list {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .subscribe__wrapper {
+    padding: 10% 0;
+  }
+
+  .form__email {
+    margin-right: 0;
+    min-width: auto;
+  }
+
+  .form__submite {
+    display: inline-block;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .gallary-img__knife {
+    display: none;
+  }
+
+  .blog__wrapper {
+    max-width: 910px;
+    justify-content: space-around;
+  }
+
+  .product {
+    width: 295px;
+    min-height: 280px;
+  }
+
+  .gallary__column {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .gallary__row {
+    justify-content: center;
+  }
+
+  .gallary-img__spoon {
+    margin-right: 10px;
+  }
+
+  .gallary__item,
+  .gallary__block {
+    width: 275px;
+    height: 255px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .h2-title {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .services__title {
+    margin-left: 4%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .subscribe__wrapper {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 550px;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .contact__form {
+    min-width: 95%;
+  }
+
+  .gallary__column {
+    display: none;
+  }
+
+  .blog {
+    padding: 6% 0;
+  }
+
+  .gallary__list {
+    margin-bottom: 0;
+  }
+
+  .gallary__wrapper {
+    padding: 8% 0;
+  }
+
+  .services__wrapper {
+    flex-direction: column;
+    align-items: center;
+    background: none;
+  }
+
+  .services__title {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .services__title {
+    order: 1;
+  }
+
+  .services__list {
+    order: 2;
+  }
+
+  .header__wrapper {
+    background: #f9f9fb url(../images/BG__header.jpg) 100% 100% no-repeat;
+    background-size: 80%;
+  }
+
+  .header__scrool {
+    bottom: 20px;
+  }
+
+  .contact {
+    padding: 5% 0;
+  }
+
+  .about__wrapper {
+    background-size: 0;
+    justify-content: center;
+  }
+
+  .contact__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__form {
+    margin-right: 0;
+  }
+
+  .contact__item {
+    display: inline-block;
+  }
+
+  .form__list {
+    width: 75%;
+  }
+
+  .footer__subtitle {
+    display: none;
+  }
+
+  .contact__subtitle {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 435px;
+  }
+
+  .header__wrapper {
+    background: none;
+  }
+
+  .gallary__row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallary__glas {
+    margin-bottom: 10px;
+  }
+
+  .header__info {
+    padding: 10% 0;
+  }
+
+  .h2-title {
+    font-size: 60px;
+  }
+
+  .blog__paragraf {
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+
+  .gallary__subtitle {
+    text-align: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .header__scrool {
+    display: none;
+  }
+
+  .form__list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact__item {
+    display: block;
+  }
+
+  .container {
+    max-width: 380px;
+  }
+
+  .footer__copyright {
+    margin-right: 10px;
+  }
+  .footer__wrapper {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 350px;
+  }
+}

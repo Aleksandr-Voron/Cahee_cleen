@@ -1,0 +1,41 @@
+.about {
+  background: radial-gradient(
+      75.02% 160.36% at 50% 50%,
+      rgba(0, 196, 196, 0.9) 0%,
+      rgba(0, 183, 183, 0.9) 32.6%,
+      rgba(0, 173, 173, 0.9) 68.02%,
+      rgba(0, 156, 156, 0.9) 100%
+    ),
+    linear-gradient(0deg, #00c4c4, #00c4c4);
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16% 0 17%;
+  background: url(../images/plato_fon.png) 0 center no-repeat;
+}
+
+.about__info {
+  max-width: 461px;
+}
+
+.about__title {
+  color: #ffffff;
+}
+
+.h2-title {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+}
+
+.about__paragraf {
+  line-height: 27px;
+  color: #ffffff;
+  // margin-bottom: 14px;
+}
+
+.about__paragraf:not(:last-child) {
+  margin-bottom: 14px;
+}
